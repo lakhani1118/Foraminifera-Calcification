@@ -3,9 +3,13 @@ Code repository for Lakhani et al. submitted to Marine Micropaleontology
 
 Directories:
 Data -- stores data output from Matlab scripts in main directory, keeps main directory clear of clutter
+
 Functions -- contains functions that are useful to running code, keeps main directory clear of clutter, added to path in most scripts
+
 Make d18O field -- contains the script and output for creating a field of predicted d18O of calcite from World Ocean Atlas 0.25 degree temperature and LeGrande and Schmidt gridded d18Osw output
+
 MARGO -- contains subset of data that is from MARGO
+
 Thermocline Percent -- stores data for the Thermocline Percent analysis that is derived from World Ocean Atlas temperature field, called from TP scripts
 
 To run Figure 1 code: Run DatabaseImporter.m, then run Run_global_ACD.m for either Holocene=1 or Holocene=0, then run Figure 1.m with the same Holocene value
