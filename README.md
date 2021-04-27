@@ -1,7 +1,7 @@
-# Foraminifera-Calcification
+# **Foraminifera-Calcification**
 Code repository for Lakhani et al. submitted to Marine Micropaleontology
 
-Directories:
+# **Directories:**
 
 **Data** -- stores data output from Matlab scripts in main directory, keeps main directory clear of clutter
 
@@ -13,8 +13,7 @@ Directories:
 
 **Thermocline Percent** -- stores data for the Thermocline Percent analysis that is derived from World Ocean Atlas temperature field, called from TP scripts
 
-
-
+# **Figures:**
 To run Figure 1 code: Run DatabaseImporter.m, then run Run_global_ACD.m for either Holocene=1 or Holocene=0, then run Figure 1.m with the same Holocene value
 
 To run Figure 2 code: Run DatabaseImporter.m, then run Run_global_ACD.m for either Holocene=1 or Holocene=0, then run Run_local_ACD.m for Holocene=1 AND Holocene=0, then run Figure 2.m with the Holocene value from Run_global_ACD.m
