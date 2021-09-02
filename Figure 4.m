@@ -28,7 +28,8 @@ for i=1:s(2)
     plot(xlim,mean(b)*[1,1],':','LineWidth',3,'Color','#D95319')
     %disp([mean(b),std(b)]) %All
     plot(xlim,mean(b1)*[1,1],':','LineWidth',3,'Color','#0072BD')
-    disp([mean(b1),std(b1)]) %Holocene
+    %disp([mean(b1),std(b1)]) %Holocene
+    disp(quantile(b1,[0.025, 0.975]))
     
     ax = gca;
     ylim([0,1])

@@ -23,6 +23,7 @@ for i=1:length(it_list)
     me=nanmean(Depths);stdev=nanstd(Depths);
     Depths(Depths>me+3*stdev)=NaN;
     Depths(Depths<me-3*stdev)=NaN;
+    disp(quantile(Depths,[0.025, 0.975]))
     cax=[-1,max(Depths)];
     contourf(Lon,Lat,Mask*cax(1))
     c=colormap('jet');
