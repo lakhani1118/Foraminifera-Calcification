@@ -22,4 +22,4 @@ Code repository for Lakhani et al. 2022 in Marine Micropaleontology ([Link](http
 
 **To run Figure 4 code:** Run *DatabaseImporter.m*, then run *Run_global_TP.m* for either Holocene=1 or Holocene=0, then run *Run_local_ACD.m* for Holocene=1 AND Holocene=0, then run *Figure 4.m* with the Holocene value from *Run_global_TP.m*
 
-**To run Figure 5 code:** Run *DatabaseImporter.m*, then run *Run_local_ACD.m* for both Holocene=1 and Holocene=0, then run *Run_global_ACD.m* for Holocene=0, then run *Constant_Percent.m* for either Holocene=1 or Holocene=0, then run *Figure 5.m* section 1, then run *Figure 5.m* section 2
+**To run Figure 5 code:** Run *DatabaseImporter.m*, then run *Run_local_ACD.m* for both Holocene=1 AND Holocene=0, then run *Run_global_ACD.m* for Holocene=0, then run *Constant_Percent.m* for either Holocene=1 or Holocene=0, then run *Figure 5.m* section 1, then run *Figure 5.m* section 2
