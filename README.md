@@ -1,5 +1,5 @@
 # **Foraminifera-Calcification**
-Code repository for Lakhani et al. 2022 to Marine Micropaleontology ([klakhani.com/](http://klakhani.com/files/Lakhani_et_al._2022.pdf))
+Code repository for Lakhani et al. 2022 to Marine Micropaleontology ([Link](http://klakhani.com/files/Lakhani_et_al._2022.pdf))
 
 ## **Directories:**
 
